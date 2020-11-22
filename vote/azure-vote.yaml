@@ -4,6 +4,7 @@ metadata:
   labels:
     name: vote
   name: vote
+
 ---
 apiVersion: apps/v1
 kind: Deployment
