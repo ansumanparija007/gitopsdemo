@@ -94,7 +94,7 @@ metadata:
   name: azure-vote-front
   namespace: vote
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 80
   selector:
